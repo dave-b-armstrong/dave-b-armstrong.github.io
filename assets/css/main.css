@@ -116,6 +116,10 @@
 		line-height: 1.65;
 	}
 
+	strong {
+		font-weight: 600;
+	}
+
 	a {
 		-moz-transition: color 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out;
@@ -215,10 +219,19 @@
 		color: #000000;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1 {
 		color: #000000;
+		font-weight: 300;
+	}
+	
+	h2, h3, h4, h5, h6 {
+		color: #000000;
+		font-weight: 500;
 	}
 
+	.logo {
+		box-shadow: 5em 0 0.1em green, -5em 0 0.1em blue;
+	}
 	blockquote {
 		border-left-color: rgba(0, 0, 0, 0.2);
 	}
