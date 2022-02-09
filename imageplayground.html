@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+        <script>
+            function convertURIToImageData(URI) {
+              return new Promise(function(resolve, reject) {
+                if (URI == null) return reject();
+                var canvas = document.createElement('canvas'),
+                context = canvas.getContext('2d'),
+                image = new Image();
+                image.addEventListener('load', function() {
+                    canvas.width = image.width;
+                    canvas.height = image.height;
+                    context.drawImage(image, 0, 0, canvas.width, canvas.height);
+                    resolve(context.getImageData(0, 0, canvas.width, canvas.height));
+                }, false);
+                image.src = URI;
+            });
+            }
+
+            function handleFileSelect(evt) {
+                var files = evt.target.files;
+                for (var i = 0, f; f = files[i]; i++) {
+	                if (!f.type.match('image.*')) continue;
+
+	                var reader = new FileReader();
+	                reader.onload = (function(theFile) {
+	                    return function(e) {
+                            console.log(typeof e, e);
+                            convertURIToImageData(e.target.result).then(function(imageData) {
+                                classifier.classify(imageData, (err, results) => {
+                                    console.log(results);
+                                });
+                            });
+                        }
+                    })(f);
+	                reader.readAsDataURL(f);
+  	            }
+            }
+            
+              function modelLoaded() {
+                document.getElementById('files').addEventListener('change', handleFileSelect, false);
+            }
+            
+            const classifier = ml5.imageClassifier('MobileNet', modelLoaded);
+          </script>
+    </head>
+    <body>
+          <p>Upload an Image:</p>
+          <input type="file" id="files" name="files" />
+          <div id="imageResult" />
+    </body>
+</html>

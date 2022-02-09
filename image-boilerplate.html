@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+          <p>Upload an Image:</p>
+          <input type="file" id="files" name="files" />
+          <canvas id="imageCanvas" style="width:100%" />
+          <script>
+            const canvas = document.getElementById("imageCanvas");
+            const context = canvas.getContext('2d');
+            document.getElementById('files').addEventListener('change', handleFileSelect, false);
+
+            function convertURIToImageData(URI) {
+                return new Promise(function(resolve, reject) {
+                    if (URI == null) return reject();
+
+                    image = new Image();
+                    image.addEventListener('load', function() {
+                        canvas.width = image.width;
+                        canvas.height = image.height;
+                        context.drawImage(image, 0, 0, canvas.width, canvas.height);
+                        resolve(context.getImageData(0, 0, canvas.width, canvas.height));
+                    }, false);
+                    image.src = URI;
+                });
+            }
+
+            function handleFileSelect(evt) {
+                var files = evt.target.files;
+                for (var i = 0, f; f = files[i]; i++) {
+	                if (!f.type.match('image.*')) continue;
+
+	                var reader = new FileReader();
+	                reader.onload = (function(theFile) {
+	                    return function(e) {
+                            console.log(typeof e, e);
+                            convertURIToImageData(e.target.result).then(function(imageData) {
+                                // DO SOMETHING with the image here. Canvas is on-screen, imageData is data from it.
+                                console.log(imageData);
+                            });
+                        }
+                    })(f);
+	                reader.readAsDataURL(f);
+  	            }
+            }
+
+          </script>
+    </body>
+</html>
