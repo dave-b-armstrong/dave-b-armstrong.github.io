@@ -1308,3 +1308,10 @@
 	.active {
 		background-color: lightblue;
 	}
+
+
+	.home-link {
+		margin: 10px;
+		font-size: .9rem;
+		text-decoration: underline;
+	}
