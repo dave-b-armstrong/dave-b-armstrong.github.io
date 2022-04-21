@@ -1,6 +1,6 @@
 {
-  "main.js": "/bundle.js",
-  "main.js.map": "/bundle.js.map",
-  "static/media/dave.svg": "/static/media/dave.f5515b78.svg",
-  "index.html": "/index.html"
+  "main.css": "main.badd297f.css",
+  "main.js": "bundle.js",
+  "dave.svg": "dave.f5515b78.svg",
+  "index.html": "index.html"
 }
