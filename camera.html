@@ -1,0 +1,96 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <video autoplay style="display:none"></video>
+        <canvas></canvas>
+        <script>
+
+let video = document.querySelector('video');
+var canvas = document.querySelector('canvas');
+canvas.width  = 1280;
+canvas.height = 960;
+
+var context = canvas.getContext('2d');
+
+function done(imgData) {
+    console.log('done');
+        context.putImageData(imgData, 0, 0);
+        setTimeout(draw, 1/60, video, canvas, context, 60);
+}
+
+function draw(video, canvas, context) {
+    // put processed back in canvas
+
+
+    // get from video
+    context.drawImage(video, 0, 0, canvas.width, canvas.height);
+    imgData = context.getImageData(0,0,context.canvas.width,context.canvas.height);    
+
+
+//	if (!window.Worker) {
+		//single threaded processing
+        processBeads(imgData.data, colors);
+        done(imgData);
+/*
+    } else {
+		//web workers for parallel processing
+		var workersCount = (navigator.hardwareConcurrency) ? navigator.hardwareConcurrency : 2;
+		var blockSize = imgData.data.length / workersCount;
+        var finished = 0;
+
+        //reduce workers until each one has a blockSize that does not split pixels
+        while (blockSize % 4 !== 0) {
+        	workersCount--;
+   			var blockSize = imgData.data.length / workersCount;
+        }
+
+        var onWorkEnded = function (e) {
+            var beaddata = e.data.result;
+            var index = e.data.index;
+
+            //put the beaddata back into imgData
+            if (beaddata.length > 0) {
+	            imgData.data.set(beaddata, blockSize*index);
+	            for (var i=0; i < e.data.localColors.length; i++) {
+    	        	colors[i][5] += e.data.localColors[i][5];
+        	    }
+	        }
+            finished++;
+            if (finished == workersCount) {
+                done(imgData);
+            }
+        };
+
+        for (var index = 0; index < workersCount; index++) {
+            var workerURL = "pixelProcessing.js";
+            var worker = new Worker(workerURL);
+            worker.onmessage = onWorkEnded;
+            var message = { data: imgData.data.slice(blockSize * index, (blockSize*index) + blockSize), index: index, colors: colors };
+            worker.postMessage(message);
+        }
+  }
+  */
+}
+
+navigator.mediaDevices.getUserMedia({
+    video: {
+      width:     1280,
+      height:    960,
+      frameRate: 60
+    }
+  }
+).then(function(stream) {
+   video.srcObject = stream;
+
+   video.onloadedmetadata = function(e) {
+    video.play();
+    draw(video, canvas, context);
+};
+}).catch(function(err) {
+  // deal with an error (such as no webcam)
+});
+
+        </script>
+    </body>
+</html>
