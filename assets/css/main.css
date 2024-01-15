@@ -3500,11 +3500,9 @@ hr::before,
 }
 @media screen and (orientation: portrait) {
   #banner {
-    -moz-flex-direction: column-reverse;
-    -ms-flex-direction: column-reverse;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
-            flex-direction: column-reverse;
+ 
   }
   #banner h1 br {
     display: none;
