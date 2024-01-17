@@ -13,8 +13,8 @@
             "id": "https://codingdave.com/launching-the-codingdave-store.html",
             "url": "https://codingdave.com/launching-the-codingdave-store.html",
             "title": "Launching the Codingdave Store",
-            "summary": "<p>Read a bit about the store that highlights my art, recently launched at https://codingdave.myshopify.com</p>\n",
-            "content_html": "\n<h3>Check it out --&gt; <a href=\"#INTERNAL_LINK#/null/undefined\" target=\"_blank\" rel=\"noopener noreferrer\">https://codingdave.myshopify.com</a></h3>\n<h3>What is there today?</h3>\n<p>Shirts, Skirts, Dresses, Swimsuits showcase the \"swirly\" designs that I've been sketching and paiting for a few decades.</p>\n<h3>What will be there in the future?</h3>\n<p>More designs. On more products. And I hope to sell my glass trinkets and acrylic paintings there later this year.</p>\n<h3>Why?</h3>\n<p>Two main reasons:</p>\n<ul>\n<li>My artwork has always been more the kind of thing that would look good as a design on a physical object vs. imagery that belongs on a gallery wall. So I'm embracing that and making it so.</li>\n<li>Because I am getting weary of the tech world. And I've learned quite a bit about creating software products that people appreciate. I'd like to find out if I can do the same thing outside the software world. I don't know if I can learn what people like and want enough to make this a living or not, but I intend to try.</li>\n</ul>\n<h3>Why just name it after my web site's domain? </h3>\n<p>For better or worse, this is the personal branding I've been running with for a number of years, and even if my store isn't about coding or tech, it is/was a signficant part of my career, so I'm keeping the name. This whole thing is a bit of an experimental effort, so we shall see how it unfolds over time.</p>",
+            "summary": "<p>Read a bit about the store that highlights my art, recently launched at https://store.codingdave.com</p>\n",
+            "content_html": "\n<h3>Check it out --&gt; <a href=\"https://store.codingdave.com\" target=\"_blank\" rel=\"noopener noreferrer\">https://store.codingdave.com</a><a></a></h3>\n<h3>What is there today?</h3>\n<p>Shirts, Skirts, Dresses, Swimsuits showcase the \"swirly\" designs that I've been sketching and paiting for a few decades.</p>\n<h3>What will be there in the future?</h3>\n<p>More designs. On more products. And I hope to sell my glass trinkets and acrylic paintings there later this year.</p>\n<h3>Why?</h3>\n<p>Two main reasons:</p>\n<ul>\n<li>My artwork has always been more the kind of thing that would look good as a design on a physical object vs. imagery that belongs on a gallery wall. So I'm embracing that and making it so.</li>\n<li>Because I am getting weary of the tech world. And I've learned quite a bit about creating software products that people appreciate. I'd like to find out if I can do the same thing outside the software world. I don't know if I can learn what people like and want enough to make this a living or not, but I intend to try.</li>\n</ul>\n<h3>Why just name it after my web site's domain? </h3>\n<p>For better or worse, this is the personal branding I've been running with for a number of years, and even if my store isn't about coding or tech, it is/was a signficant part of my career, so I'm keeping the name. This whole thing is a bit of an experimental effort, so we shall see how it unfolds over time.</p>",
             "image": "https://codingdave.com/media/posts/6/storescreenshot.JPG",
             "author": {
                 "name": "Dave Armstrong"
@@ -24,7 +24,7 @@
                    "art"
             ],
             "date_published": "2024-01-12T16:20:12-06:00",
-            "date_modified": "2024-01-15T05:09:47-06:00"
+            "date_modified": "2024-01-17T15:13:34-06:00"
         },
         {
             "id": "https://codingdave.com/my-creative-projects-3.html",
