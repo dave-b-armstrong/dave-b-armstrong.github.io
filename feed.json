@@ -10,6 +10,23 @@
     },
     "items": [
         {
+            "id": "https://codingdave.com/spouse-a-rific-and-i-are-joining-stores.html",
+            "url": "https://codingdave.com/spouse-a-rific-and-i-are-joining-stores.html",
+            "title": "Spouse-a-rific and I are Joining Stores",
+            "summary": "<p>Store will be wonky this weekend, but will have twice the awesomeness by Monday...</p>\n",
+            "content_html": "\n<p>Loretta, queen of the universe, crafter extraordinaire, primary creator of all things crafty... is going to join me in my quest to <span style=\"text-decoration: line-through;\">sell </span>share our creations things. Because that is how we buy more supplies for more things - share them with the world.</p>\n<p>To that end, the store is going to be sketchy for the weekend. Changing designs, domains, info architecture (menus), and all kinds of things.</p>\n<p>I say this less because anyone will see it while it is broken and more because I have been doing software too long to comfortable go to bed knowing that a site I own in wonky. </p>\n<p>Well, it is. The 0-1 of you who notice should check back next week!</p>",
+            "image": "https://codingdave.com/media/posts/10/output-2.jpg",
+            "author": {
+                "name": "Dave Armstrong"
+            },
+            "tags": [
+                   "store",
+                   "art"
+            ],
+            "date_published": "2024-02-16T19:13:25-06:00",
+            "date_modified": "2024-02-16T19:17:38-06:00"
+        },
+        {
             "id": "https://codingdave.com/re-committing-to-art.html",
             "url": "https://codingdave.com/re-committing-to-art.html",
             "title": "Re-committing to Art",
