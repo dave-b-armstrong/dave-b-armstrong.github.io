@@ -1,0 +1,11 @@
+{
+  "main.js": "/bundle.js",
+  "main.js.map": "/bundle.js.map",
+  "0.bundle.js": "/0.bundle.js",
+  "0.bundle.js.map": "/0.bundle.js.map",
+  "1.bundle.js": "/1.bundle.js",
+  "1.bundle.js.map": "/1.bundle.js.map",
+  "2.bundle.js": "/2.bundle.js",
+  "2.bundle.js.map": "/2.bundle.js.map",
+  "static/media/dave.svg": "/static/media/dave.f5515b78.svg"
+}
