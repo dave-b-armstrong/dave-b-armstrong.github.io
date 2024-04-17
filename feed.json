@@ -25,6 +25,21 @@
             "date_modified": "2024-04-17T06:23:28-05:00"
         },
         {
+            "id": "https://codingdave.com/were-all-doing-it-wrong-software-product-leadership.html",
+            "url": "https://codingdave.com/were-all-doing-it-wrong-software-product-leadership.html",
+            "title": "We&#x27;re All Doing It Wrong (Software Product Leadership)",
+            "summary": "As I work in more software shops, I see more and more perspectives on how to lead the product side of software development efforts. And the more I see, the more I think that none of us has it right. We're caught up in processes&hellip;",
+            "content_html": "<p>As I work in more software shops, I see more and more perspectives on how to lead the product side of software development efforts. And the more I see, the more I think that none of us has it right. </p>\n<p>We're caught up in processes that we don't even notice. We argue over Scrum vs. Kanban without stopping to ask if boards, cards, and stories are even the right paradigm to be working in. </p>\n<p>We drive work through our workflow processes so well that we don't notice that our teams/pods/squads/insert-your-favorite-term-here of engineers are now delivering code as \"blazingly fast\" as one mid-level dev did 10-15 years ago. Not that ye olde days of throwing an entire platform at one coder and saying \"Handle this.\" were perfect... we had problems back then. Different problems. But we had autonomy and trust and were empowered to get stuff done. </p>\n<p>That is what we need to bring back - we need to stop micromanging the engineers (which is really what most Agile processes boil down to), and instead just do what we all (incorrectly) think we are already doing - tell them what we need and then trust them to go do it.</p>\n<p>\"What we need\" does need to include much of what we talk about today: What is the scope of a feature? How should the experience come across to the customers? When do business realities create deadlines that we need to respect?</p>\n<p>But we need to trust people to hear those needs and meet them. If our engineers fail to meet our needs, that is something we'd need to resolve, but creating daily, weekly, monthly rituals to walk through together isn't really working.</p>\n<p>It is time to collectively take a step back from our work and take a hard look at what has and has not worked over the last few decades. I've got some idea percolating in my head about my own way I'd approach it all. I'll get them written up at some point, but until then if anyone stumbles across this I'd encourage everyone to throw out all your assumptions about how software development is done and think about some new approaches.</p>\n<p> </p>",
+            "author": {
+                "name": "Dave Armstrong"
+            },
+            "tags": [
+                   "tech"
+            ],
+            "date_published": "2024-03-19T18:02:00-05:00",
+            "date_modified": "2024-04-17T06:29:20-05:00"
+        },
+        {
             "id": "https://codingdave.com/todays-innovation-is-tomorrows-table-stakes.html",
             "url": "https://codingdave.com/todays-innovation-is-tomorrows-table-stakes.html",
             "title": "Today&#x27;s Innovation is Tomorrow&#x27;s Table Stakes",
