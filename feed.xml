@@ -3,7 +3,7 @@
     <title>codingdave.com</title>
     <link href="https://codingdave.com/feed.xml" rel="self" />
     <link href="https://codingdave.com" />
-    <updated>2024-04-17T06:04:30-05:00</updated>
+    <updated>2024-04-17T06:05:19-05:00</updated>
     <author>
         <name>Dave Armstrong</name>
     </author>
@@ -16,8 +16,9 @@
         </author>
         <link href="https://codingdave.com/software-is-nothing-more-or-less-than-communication.html"/>
         <id>https://codingdave.com/software-is-nothing-more-or-less-than-communication.html</id>
+            <category term="tech"/>
 
-        <updated>2024-04-17T06:04:30-05:00</updated>
+        <updated>2024-04-17T06:05:19-05:00</updated>
             <summary>
                 <![CDATA[
                     Software is complex, and while more people are learning to create it and the tools to create it are becoming more powerful, many software creators see the end result of their work as being about the tech. I disagree - it is about communication. Before&hellip;
