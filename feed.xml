@@ -3,12 +3,45 @@
     <title>codingdave.com</title>
     <link href="https://codingdave.com/feed.xml" rel="self" />
     <link href="https://codingdave.com" />
-    <updated>2024-06-07T07:32:28-05:00</updated>
+    <updated>2024-10-31T08:58:47-05:00</updated>
     <author>
         <name>Dave Armstrong</name>
     </author>
     <id>https://codingdave.com</id>
 
+    <entry>
+        <title>What is “good” software?</title>
+        <author>
+            <name>Dave Armstrong</name>
+        </author>
+        <link href="https://codingdave.com/what-is-good-software.html"/>
+        <id>https://codingdave.com/what-is-good-software.html</id>
+            <category term="tech"/>
+
+        <updated>2024-10-31T08:58:47-05:00</updated>
+            <summary>
+                <![CDATA[
+                    Good software does the following: You will note that my list of criteria for good software says nothing about the quality of the code or other technology used to build it. That is a deliberate omission. Good engineering does matter - it supports the points&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Good software does the following:</p>
+<ul>
+<li>Solves a problem - this can include any problem in business or your life, including recreational activities.</li>
+<li>Is sustainable - It continues to work over time. The economics of creating and maintaining it are in balance with the fees charged for the software.</li>
+<li>Is maintainable - It can be reasonably changed in order to adapt to changes in its ecosystems.</li>
+<li>Is supported - The customers of the software can find the help they need when using it.</li>
+<li>Is enjoyable - There needs to be an positive experience not only for the people who use it, but for the people who build, maintain, and support it.</li>
+</ul>
+<hr>
+<p> You will note that my list of criteria for good software says nothing about the quality of the code or other technology used to build it. That is a deliberate omission. Good engineering does matter - it supports the points above. I exclude it as its own criteria to force the perspective that software engineering is a tool we use to build software, but is not a goal for its own sake.</p>
+<p class="indented">Because this can be a contentious point, I want to use the tried-and-true analogy of comparing software dev to a house. Buying a house, in this case. If you saw a house that you loved and wanted to live in, but needed repairs, you would buy the house and fix the problems. But if you saw a house in perfect condition that you did not want to live in, you would not buy that hosue no matter how perfect its craftsmanship may be.</p>
+<p>Software is the same - the craftsmanship does matter. But it is a secondary factor, not the primary goal. It makes it a sustainable place to enjoy spending time, only when and if everything already matches your needs.</p>
+<p>Another deliberate exclusion from that list is AI. For similar reasons, but with how new AI is at the time I wrtie this, I want to comment on where it fits in good software: Anywhere. AI is a tool, just like code. If you can solve a problem with AI, do so. But do it because it is the right tool for the job. Don't add AI just because it is the latest innovation. That innovation must improve one of the points in the list above. The creation of software is about the result of all the combined elements, not the usage of any specific tool. </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>I dislike AI. Mostly.</title>
         <author>

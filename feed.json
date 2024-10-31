@@ -10,6 +10,21 @@
     },
     "items": [
         {
+            "id": "https://codingdave.com/what-is-good-software.html",
+            "url": "https://codingdave.com/what-is-good-software.html",
+            "title": "What is “good” software?",
+            "summary": "Good software does the following: You will note that my list of criteria for good software says nothing about the quality of the code or other technology used to build it. That is a deliberate omission. Good engineering does matter - it supports the points&hellip;",
+            "content_html": "<p>Good software does the following:</p>\n<ul>\n<li>Solves a problem - this can include any problem in business or your life, including recreational activities.</li>\n<li>Is sustainable - It continues to work over time. The economics of creating and maintaining it are in balance with the fees charged for the software.</li>\n<li>Is maintainable - It can be reasonably changed in order to adapt to changes in its ecosystems.</li>\n<li>Is supported - The customers of the software can find the help they need when using it.</li>\n<li>Is enjoyable - There needs to be an positive experience not only for the people who use it, but for the people who build, maintain, and support it.</li>\n</ul>\n<hr>\n<p> You will note that my list of criteria for good software says nothing about the quality of the code or other technology used to build it. That is a deliberate omission. Good engineering does matter - it supports the points above. I exclude it as its own criteria to force the perspective that software engineering is a tool we use to build software, but is not a goal for its own sake.</p>\n<p class=\"indented\">Because this can be a contentious point, I want to use the tried-and-true analogy of comparing software dev to a house. Buying a house, in this case. If you saw a house that you loved and wanted to live in, but needed repairs, you would buy the house and fix the problems. But if you saw a house in perfect condition that you did not want to live in, you would not buy that hosue no matter how perfect its craftsmanship may be.</p>\n<p>Software is the same - the craftsmanship does matter. But it is a secondary factor, not the primary goal. It makes it a sustainable place to enjoy spending time, only when and if everything already matches your needs.</p>\n<p>Another deliberate exclusion from that list is AI. For similar reasons, but with how new AI is at the time I wrtie this, I want to comment on where it fits in good software: Anywhere. AI is a tool, just like code. If you can solve a problem with AI, do so. But do it because it is the right tool for the job. Don't add AI just because it is the latest innovation. That innovation must improve one of the points in the list above. The creation of software is about the result of all the combined elements, not the usage of any specific tool. </p>",
+            "author": {
+                "name": "Dave Armstrong"
+            },
+            "tags": [
+                   "tech"
+            ],
+            "date_published": "2024-10-31T08:57:02-05:00",
+            "date_modified": "2024-10-31T08:58:47-05:00"
+        },
+        {
             "id": "https://codingdave.com/i-dislike-ai-mostly.html",
             "url": "https://codingdave.com/i-dislike-ai-mostly.html",
             "title": "I dislike AI. Mostly.",
