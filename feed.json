@@ -10,6 +10,36 @@
     },
     "items": [
         {
+            "id": "https://codingdave.com/playing-unity-app-on-meta-quest-3-headset.html",
+            "url": "https://codingdave.com/playing-unity-app-on-meta-quest-3-headset.html",
+            "title": "Playing Unity app on Meta Quest 3 Headset",
+            "summary": "My biggest challenge so far in learning Unity VR coding was getting my dev-in-progress to render on the Meta Quest 3 headset when I play the game in the Unity editor. The info on the web makes it sound easy, and it is, but it&hellip;",
+            "content_html": "<p>My biggest challenge so far in learning Unity VR coding was getting my dev-in-progress to render on the Meta Quest 3 headset when I play the game in the Unity editor. The info on the web makes it sound easy, and it is, but it is also really picky. </p>\n<p>So for absolute clarity of what works for me:</p>\n<p>Prereqs:</p>\n<ul>\n<li>Meta Quest Link app is Installed</li>\n<li>Device is paired in that app</li>\n<li>Meta Quest settings auto-start a Link session when connected</li>\n<li>Unity App is set to build for Android, and Project Settings are set to build for Oculus</li>\n</ul>\n<p>Process - order of these steps matters.</p>\n<ol>\n<li>Connect the headset to my PC with the Link Cable</li>\n<li>Start the Meta Quest App</li>\n<li>Start Unity and load my app</li>\n<li>Put on headset</li>\n<li>Press Play in Unity. </li>\n</ol>\n<p> </p>\n<p>It is the steps 4 and 5 that seem critical. Most docs I see say to press play, then put on headset, but it seems unreliable unless the headset is already awake. So I lift it up, look in it, make sure it is awake, then press 'Play', then put the headset on for real.</p>",
+            "author": {
+                "name": "Dave Armstrong"
+            },
+            "tags": [
+                   "VR"
+            ],
+            "date_published": "2024-11-11T06:44:48-06:00",
+            "date_modified": "2024-11-11T06:45:23-06:00"
+        },
+        {
+            "id": "https://codingdave.com/starting-vr-dev.html",
+            "url": "https://codingdave.com/starting-vr-dev.html",
+            "title": "Starting VR Dev",
+            "summary": "I am starting to learn VR dev in order to create my own workout games for the long cold Wisconsin winters. And I'm having a blast doing it. Bringing 30 years of software experience onto a new platform, learning, creating, without any pressure to do&hellip;",
+            "content_html": "<p>I am starting to learn VR dev in order to create my own workout games for the long cold Wisconsin winters. And I'm having a blast doing it. Bringing 30 years of software experience onto a new platform, learning, creating, without any pressure to do anything other than what I want... it brings back the joy I had decades ago when I first started doing software.</p>\n<p>I fully recognize my complete noob status at VR, and at gaming, so I doubt anything I post on this topic is going to be useful to people who have a clue. But I'm going to be doing it anyway because it will help me to remember things. And who knows... maybe I can actually build a few tools or games that are worth sharing. </p>",
+            "author": {
+                "name": "Dave Armstrong"
+            },
+            "tags": [
+                   "VR"
+            ],
+            "date_published": "2024-11-11T06:39:17-06:00",
+            "date_modified": "2024-11-11T06:45:15-06:00"
+        },
+        {
             "id": "https://codingdave.com/what-is-good-software.html",
             "url": "https://codingdave.com/what-is-good-software.html",
             "title": "What is “good” software?",
@@ -128,36 +158,6 @@
             ],
             "date_published": "2024-04-19T05:57:42-05:00",
             "date_modified": "2024-04-19T09:30:31-05:00"
-        },
-        {
-            "id": "https://codingdave.com/software-is-nothing-more-or-less-than-communication.html",
-            "url": "https://codingdave.com/software-is-nothing-more-or-less-than-communication.html",
-            "title": "Software is Nothing More or Less than Communication",
-            "summary": "Software is complex, and while more people are learning to create it and the tools to create it are becoming more powerful, many software creators see the end result of their work as being about the tech. I disagree - it is about communication. Before&hellip;",
-            "content_html": "<p>Software is complex, and while more people are learning to create it and the tools to create it are becoming more powerful, many software creators see the end result of their work as being about the tech. I disagree - it is about communication. </p>\n<p><em>Before I go any farther, everything I'm about to say is the underpinning of the topic of UX (User Experience) in software. If anything I'm saying is new and interesting do you, I encourage you to go search more about UX - it is a worthwhile topic of study.</em></p>\n<p>Lets start with the standard trick of comparing software to houses or cars -- your car is made of steel and plastic, but do you research the steel used when buying a car...or do you focus on the features you directly experience and their impact on your life? When buying a house, do you focus on the quality of the lumber used to frame the house... or on the layout of the house and how you would live there?</p>\n<p>I'm sure some people do focus on the materials, but most do not. Those materials do matter to the quality of your car or home, but they are not the drivers of your direct experience. Software is the same - the underlying code and hardware absolutely matters... but does not inherently fulfill the purpose of writing software. The purpose is to have an impact on the lives of the people who use it. </p>\n<p>So while there will always be people whose jobs it is to maximize the quality of the \"materials\", we need to spend more time focusing on the larger impact of the work, which I believe is the communication that it delivers. </p>\n<p>Putting something up on a screen is communication to the person looking at that screen. Adding a form to a web page is communication from that person back to the system. Changing and processing data, then reporting the results to someone else is communication of those results.</p>\n<p>At this point, the correct question to ask yourself is: \"So what?\" How does looking at software as communication help you make it better?</p>\n<p>Because you can now think about what the software needs to do in terms of the people using it. You have a pile of questions to ask yourself that will tell you if your software is communicating effectively -- Does the layout of the text and images make sense to people? Is It also usable by users who cannot see well?  When people need to communicate back to the systems, are the forms easy to use? Is it clear what they need to type, say, or do? Are there any cultural assumptions that could change the communication you are trying to facilitiate?</p>\n<p>Overall, does the system communicate effectively? Or is it complex to the point that the feedback you hear from people is, \"I didn't know I could do that.\" Can your communication be improved? Sped up, made more clear, made to be understood by more people, more easily?</p>\n<p>My entire reason for writing this post is to encourage people developing software to focus less on the code, the infrastructure, and the tech in general... and instead focus on communication as the point of everything you do. If you keep laser focused on communication as the goal of your work, you'll see that everything else is a tool to help you reach that goal, and your software will be better.</p>",
-            "author": {
-                "name": "Dave Armstrong"
-            },
-            "tags": [
-                   "tech"
-            ],
-            "date_published": "2024-04-17T05:52:49-05:00",
-            "date_modified": "2024-10-31T08:59:49-05:00"
-        },
-        {
-            "id": "https://codingdave.com/were-all-doing-it-wrong-software-product-leadership.html",
-            "url": "https://codingdave.com/were-all-doing-it-wrong-software-product-leadership.html",
-            "title": "We&#x27;re All Doing It Wrong (Software Product Leadership)",
-            "summary": "As I work in more software shops, I see more and more perspectives on how to lead the product side of software development efforts. And the more I see, the more I think that none of us has it right. We're caught up in processes&hellip;",
-            "content_html": "<p>As I work in more software shops, I see more and more perspectives on how to lead the product side of software development efforts. And the more I see, the more I think that none of us has it right. </p>\n<p>We're caught up in processes that we don't even notice. We argue over Scrum vs. Kanban without stopping to ask if boards, cards, and stories are even the right paradigm to be working in. </p>\n<p>We execute our processes so well that we don't notice that our teams/pods/squads/insert-your-favorite-term-here of engineers are now delivering code as \"blazingly fast\" as one mid-level dev did 10-15 years ago. Not that ye olde days of throwing an entire platform at one coder and saying \"Handle this.\" were perfect... we had problems back then. Different problems. But we had autonomy and trust and were empowered to get stuff done. </p>\n<p>That is what we need to bring back - we need to stop micromanging the engineers (which is really what most Agile processes boil down to), and instead just do what we all (incorrectly) believe that we are already doing - tell them what we need and then trust them to go do it.</p>\n<p>\"What we need\" does need to include much of what we talk about today: What is the scope of a feature? Why is it needed? What problem are we trying to solve? How should the experience come across to the customers? When do business realities create deadlines that we need to respect?</p>\n<p>But we need to trust people to hear those needs and meet them. If our engineers fail to meet our needs, that is something we'd need to resolve, but creating daily, weekly, monthly rituals to walk through minutaie together isn't really working.</p>\n<p>It is time to collectively take a step back from our work and take a hard look at what has and has not worked over the last few decades. I've got some ideas percolating in my head about my own way I'd approach it all. I'll get them written up at some point, but until then if anyone stumbles across this I'd encourage everyone to throw out all your assumptions about how software development is done and think about some new approaches.</p>\n<p> </p>",
-            "author": {
-                "name": "Dave Armstrong"
-            },
-            "tags": [
-                   "tech"
-            ],
-            "date_published": "2024-03-19T18:02:00-05:00",
-            "date_modified": "2024-04-18T10:02:14-05:00"
         }
     ]
 }
