@@ -10,6 +10,21 @@
     },
     "items": [
         {
+            "id": "https://codingdave.com/one-week-into-vr-coding.html",
+            "url": "https://codingdave.com/one-week-into-vr-coding.html",
+            "title": "One week into VR Coding",
+            "summary": "... and it has lost the excitement. The problem is that I've learned just enough to get myself into situations that are harder to troubleshoot. I'm trying to code adjustments to the physics of thrown objects such that they depart from realistic physics in ways&hellip;",
+            "content_html": "<p>... and it has lost the excitement. </p>\n<p>The problem is that I've learned just enough to get myself into situations that are harder to troubleshoot. I'm trying to code adjustments to the physics of thrown objects such that they depart from realistic physics in ways that streamline their use as tools within a game. But each type of object having its own physics, with its own reactions to the other objects... it is creating unexpected interactions. Bugs, if you will. </p>\n<p>And I simply don't have the troubleshooting experience in VR to quickly find and correct them. I'm sure an experienced Unity dev would fix these quicly and easily, but I'm not there yet.</p>\n<p>Which leads me to believe I've bitten off more than I can chew. I tried to fly too high, too fast. I need to instead stick with simplicity while I learn, and come back to complexity when I know enough to handle it.</p>\n<p>And really, that resolves the concern. I was trying to decide whether to keep going on this project or to drop it. But I think the answer is neither - it is to pursue simpler projects for a while, and come back to this vision when the time is right.</p>\n<p>I admit, this new journey is going to turn this blog into something new - no longer will I post things a few times a yaer that I hope other people relate to. Instead, this is going to be a personal journal to sort out thoughts as I navigate working on new projects in new areas. </p>\n<p>I would say thanks to the people who read all this, but I do have some basic analytics on this site, and I know that there are no such people. This blog is just me typing at myself. But maybe as I evolve what I do, that too shall change. We shall see. </p>",
+            "author": {
+                "name": "Dave Armstrong"
+            },
+            "tags": [
+                   "VR"
+            ],
+            "date_published": "2024-11-19T08:14:20-06:00",
+            "date_modified": "2024-11-19T08:14:27-06:00"
+        },
+        {
             "id": "https://codingdave.com/playing-unity-app-on-meta-quest-3-headset.html",
             "url": "https://codingdave.com/playing-unity-app-on-meta-quest-3-headset.html",
             "title": "Playing Unity app on Meta Quest 3 Headset",
@@ -143,21 +158,6 @@
             ],
             "date_published": "2024-05-18T09:24:42-05:00",
             "date_modified": "2024-10-31T09:49:07-05:00"
-        },
-        {
-            "id": "https://codingdave.com/more-statuses-more-success-in-jira.html",
-            "url": "https://codingdave.com/more-statuses-more-success-in-jira.html",
-            "title": "More Statuses, More Success (in Jira)",
-            "summary": "\"OMG, there are so many statuses in this Jira workflow! Dave, what the heck??\" There is a method to my madness: I feel that many product managers get too focused on the Scrum/Kanban boards when working in Jira. I can see why - it is&hellip;",
-            "content_html": "<p>\"OMG, there are so many statuses in this Jira workflow! Dave, what the heck??\"</p>\n<p>There is a method to my madness:</p>\n<p>I feel that many product managers get too focused on the Scrum/Kanban boards when working in Jira. I can see why - it is the first thing you choose when setting up a project, and people spend a ton of time working on the boards. But the boards are just a tool - they need to serve the team, not be the primary focus of a product management effort. </p>\n<p>Instead, we need to focus on the people - from the person who initiates an idea to the person who researches it, designs it, architects it, validates it, writes up details, actually does the work, tests it, accepts it, deploys it... there are a ton of people and a ton of steps to go from an idea to a product feature. The workflow from idea to delivered product feature needs to be about communicating with those people, not just running an agile process.  </p>\n<p>The trick is to build a workflow that handles all those people, while not making them have to deal with the size and complexity of it all. Let everyone do their day-to-day job seeing their own view of the world, a simplified slice of the bigger picture. </p>\n<p>I achieve that with big workflows that contain many statuses, but that also provide a simple UX for each individual person within the process:<br>I create a status for everyone who might have any need to think about, plan, or act on any piece of work. I build a workflow that connects the statuses in the right order, with specific transitions between statuses so nobody ever sees a huge drop-down of statuses to choose. Team members see work that is available either do some of the work and finish it, or send it back to the me for more information.  </p>\n<p>I also set up a board for each role. You'll have a Dev Board, a Testing board, a PM board, and maybe even a Sponsor board. Dev boards look just like they do on any other team, and the other roles just see some basic To Do and In Progress columns for their own work. </p>\n<p>The PM glues it all together by seeing the work on their own board. They triage new cards to decide whether or not to go forward with new work or backlog it. They refine the ideas into fully baked product features. They look at work that has been completed by UX or other roles, and either refines it more or moves it along to the next role. When all the planning is complete, it goes to dev to be added to the product. </p>\n<p>A Sponsor/Stakeholder board is something I also use that is not typical, but is effective. I do not actually expect executives to get into Jira and read up on features we need to discuss, but having a separate board for them makes it easy to have a specific agenda for calls. You can run a meeting with clear goals - to answer questions and confirm designs and plans for specific work, gain consensus, and move forward.</p>\n<p>Cards will bounce around the boards a bit as work is planned - a new feature may be written up by a PM, get a wireframe from UX, discussed with stakeholders, refined again, re-worked into a full design, written up into final requirements by the PM, then finally sent on to the Dev team. All of that happens anyway, but supporting it in a single workflow helps to be sure that nothing falls through the cracks, and you can re-prioritize efforts along the way as needs evolve. </p>\n<p>So what does this all actually look like in Jira? Here is an example workflow of how these ideas may come together:</p>\n<div class=\"gallery-wrapper\"><div class=\"gallery\"  data-is-empty=\"false\" data-translation=\"Add images\" data-columns=\"3\">\n<figure class=\"gallery__item\"><a href=\"https://codingdave.com/media/posts/13/gallery/JiraFlow.JPG\" data-size=\"2407x1157\"><img loading=\"lazy\" src=\"https://codingdave.com/media/posts/13/gallery/JiraFlow-thumbnail.JPG\" alt=\"\" width=\"768\" height=\"369\"></a></figure>\n</div></div>\n<p>Is it a lot? Sure... but it gets the job done. </p>\n<p>I do get resistance to all this because it is more setup and complexity. It also becomes too process-driven for some product folk. But for analytical folks like me, it works quite well. When I've been able to run products using this type of setup, we ended up with few meetings, effective async communications in the cards, and happy team members.</p>",
-            "author": {
-                "name": "Dave Armstrong"
-            },
-            "tags": [
-                   "tech"
-            ],
-            "date_published": "2024-04-19T05:57:42-05:00",
-            "date_modified": "2024-04-19T09:30:31-05:00"
         }
     ]
 }
