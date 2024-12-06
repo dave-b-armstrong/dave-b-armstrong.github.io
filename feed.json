@@ -10,6 +10,21 @@
     },
     "items": [
         {
+            "id": "https://codingdave.com/sabbatical-week-one.html",
+            "url": "https://codingdave.com/sabbatical-week-one.html",
+            "title": "Sabbatical: Week One",
+            "summary": "November was a month of bad things. I was laid off. So was most of my team. We had another death in the family. I have feelings about all of that, but this is not the place for them - Instead, this is the place&hellip;",
+            "content_html": "<p>November was a month of bad things. I was laid off. So was most of my team. We had another death in the family. I have feelings about all of that, but this is not the place for them - Instead, this is the place where I'm going to post weekly updates as I take a 6-9 months sabbatical, to help encourage myself to make it a period of positive change and growth, and not just sitting around doing nothing for half a year.</p>\n<p>Therefore, the report on week one:</p>\n<p>I broke my habit of getting online, checking messages, doing some work, writing some code, etc. I did none of that. I have a VR game half coded. I did not even turn on the headset or open an IDE this week. What I did instead:</p>\n<ul>\n<li>Set up a reading nook in our home, with the 4 antique chairs that have come from prior generations of our family. </li>\n<li>Spent one big day out with my wife, doing all the Chistmas shopping at once.</li>\n<li>Played a lot of video games.</li>\n<li>Kept up on my exercise plan. (Now 3 weeks into it.)</li>\n<li>Read half of a book.</li>\n</ul>\n<p>Now that I have spent a week not doing tech work, it feels refreshing. Maybe I'm burned out. Maybe I will recover and go back - or maybe not. But now is not the time to worry about that. Now is the time to enjoy having some time. This week's purpose was recovery from the past week/month/year/decade. Next week is for family. Future weeks will be productive.</p>\n<p>But for now, the biggest achievement of week one was reading. It sounds simple, but it is really a big deal. Due to a nasty pile of injuries a decade or so ago, I only recently have been able to hold a book in front of my face. But I never quite had the right place to sit and read, so even though I could hold a book, it never felt good enough to read for more than a few minutes. So this new setup is meaningful. I have sat down to read almost every day this week, in chairs that have seen and supported four generations of my family. </p>\n<p> </p>",
+            "author": {
+                "name": "Dave Armstrong"
+            },
+            "tags": [
+                   "sabbatical"
+            ],
+            "date_published": "2024-12-06T06:56:06-06:00",
+            "date_modified": "2024-12-06T06:58:01-06:00"
+        },
+        {
             "id": "https://codingdave.com/one-week-into-vr-coding.html",
             "url": "https://codingdave.com/one-week-into-vr-coding.html",
             "title": "One week into VR Coding",
@@ -143,21 +158,6 @@
             ],
             "date_published": "2024-06-07T05:01:45-05:00",
             "date_modified": "2024-10-31T09:48:59-05:00"
-        },
-        {
-            "id": "https://codingdave.com/ethical-software-development.html",
-            "url": "https://codingdave.com/ethical-software-development.html",
-            "title": "Ethical Software Development",
-            "summary": "Software is pervasive in the modern world, which means those of us who create it have a large impact on our world. But that is easy to forget when your day-to-day life consists of small technical tasks. Many of us do not see the big&hellip;",
-            "content_html": "<p>Software is pervasive in the modern world, which means those of us who create it have a large impact on our world. But that is easy to forget when your day-to-day life consists of small technical tasks. Many of us do not see the big picture. Or do not have the trust, autonomy, and authority to change the direction of our products even when we do see the big picture. So it is easy to avoid connecting the dots between the small tasks we do and the global impact of software on our world. </p>\n<p>But I believe we should. Our industry created social media, for all its good and all its bad. We automate processes which speed things up as well as change jobs and livelihoods. We have an impact on the energy usage of our societies. Our work has changed how people spend their time, how much we move vs. sit still, how much we engage with each other vs. screens. </p>\n<p>Of course, every consumer makes their own choices. We don't force people to make unhealthy choices. But we do offer them unhealthy choices.</p>\n<p>Because we are the ones creating the pervasive software of the world, I believe we need to evaluate our own career choices within a context of ethics. I'm not proposing a standard set of rules for everyone to follow. But I do desire for everyone to bring ethical questions into their decision making processes when making career choices.</p>\n<p>At the highest level, does the work I am doing improve the world? Does it harm the world? What is its impact on people? On energy consumption? If it succeeds, who gets the benefit? Who receives harm? And am I OK with all of those answers?</p>\n<p>If the answers to those questions are not what we hoped, we need to not take those jobs. </p>",
-            "author": {
-                "name": "Dave Armstrong"
-            },
-            "tags": [
-                   "tech"
-            ],
-            "date_published": "2024-05-18T09:24:42-05:00",
-            "date_modified": "2024-10-31T09:49:07-05:00"
         }
     ]
 }
