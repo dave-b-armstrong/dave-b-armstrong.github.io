@@ -3,12 +3,45 @@
     <title>codingdave.com</title>
     <link href="https://codingdave.com/feed.xml" rel="self" />
     <link href="https://codingdave.com" />
-    <updated>2024-12-06T07:22:58-06:00</updated>
+    <updated>2024-12-13T06:32:48-06:00</updated>
     <author>
         <name>Dave Armstrong</name>
     </author>
     <id>https://codingdave.com</id>
 
+    <entry>
+        <title>Sabbatical: Week Two</title>
+        <author>
+            <name>Dave Armstrong</name>
+        </author>
+        <link href="https://codingdave.com/sabbatical-week-two.html"/>
+        <id>https://codingdave.com/sabbatical-week-two.html</id>
+
+        <updated>2024-12-13T06:32:48-06:00</updated>
+            <summary>
+                <![CDATA[
+                    Last week, I said this week was going to be spent with family... and that was true, but we did it in fast mode, with my parents coming into town one day, doing an early christmas the next day, and departing the next morning. It&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Last week, I said this week was going to be spent with family... and that was true, but we did it in fast mode, with my parents coming into town one day, doing an early christmas the next day, and departing the next morning. It was a whirlwind visit, but in that day we had a wonderful family Christmas. Good enough that we almost forgot that we are doing it 3 weeks early.</p>
+<p>That left me with more time this week to do some productive things, and I'm getting energy back to even want to do so. A selection of accomplishments this week:</p>
+<p><strong>Inventoried the coin collection...</strong></p>
+<p>This is a coin collection that I first ran into when I was a child. My dad showed it to us, we added a few things, and then it mostly just sat around. At some point, my brother took it. And when he passed away earlier this year, it came to me. I knew I wanted to get an inventory of it and start to evaluate what is in it, maybe pick the hobby back up now that I am old enough to appreciate collections of old and shiny things.</p>
+<p>I'll be doing more work with it over the winter, but for the very first step, I inventoried the coins and made up a spreadsheet of the contents. We have 1175 coins in this collection. The oldest is from the 1850s, but so beat up I cannot read the last digit of the year. The oldest that is legible is from 1863, and a large variety of years and conditions from that point up to recent years. </p>
+<p><strong>Continued dabbling with printing...</strong></p>
+<p>I am currently exploring printing. I'm pursuing two type of printing at this point: linocuts and monotypes.</p>
+<p>The linoleum blocks are really satisfying to carve. I sometimes just want a project I can sit down and work on for a while that takes time, balancing process and progress -- where an hour of work or a week of work both feel satisfying, and you end with a finished product that makes the effort feel like time well spent. Linocuts hits the mark. It also results in a repeatable piece of work, which means that if I can develop any actual skill at it, there is promise for selling some work to at least pay for supplies. </p>
+<p>Monotypes are the opposite in terms of pacing - I paint the ink onto glass, and press paper down on the image once complete. It creates quick spontanseous unique images that match my history of doing abstract work as well as doing quick sketches. It is enjoyable, and fits my occasional desire to sometimes just whip out a result in a matter of minutes.</p>
+<p>One bit of progress I made this week was thanks to some ink I was gifted by Spouserific that is designed for monotypes. It works so much better than using the same ink for both techniques.</p>
+<p>Neither technique has produced anything worth sharing as of yet, but they both show promise for the future. </p>
+<p><strong>Exercise Program...</strong></p>
+<p>It continues. It causes both feelings of strength and feelings of pain. But it does continue.</p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Sabbatical: Week One</title>
         <author>
@@ -345,32 +378,6 @@
 <p>Some coders never comment their code because they feel that well-written code doesn’t need comments. That is incorrect - well-written code should not need comment to explain what it does, but it absolutely needs comments to explain why it does it, and what product and business needs led to writing the code in the first place.</p>
 <p>Some of the easiest <mark class="ql-spelling">codebases</mark> I’ve worked in had a few small comments throughout any given code file, but entire books written at the top explaining the larger context of where the code in that file fits into the bigger picture and when and why it was written in the first place. This documentation helps future team members understand and update the code, and is a direct contributor to maintainability. It is part of a holistic approach to being an good engineer.</p>
 <p class="indented"> </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>I dislike AI. Mostly.</title>
-        <author>
-            <name>Dave Armstrong</name>
-        </author>
-        <link href="https://codingdave.com/i-dislike-ai-mostly.html"/>
-        <id>https://codingdave.com/i-dislike-ai-mostly.html</id>
-            <category term="tech"/>
-
-        <updated>2024-10-31T09:48:59-05:00</updated>
-            <summary>
-                <![CDATA[
-                    This is not a fully baked collection of thoughts that I spent a ton of time crafting. It is just a simple list of why I, as a software product professional, dislike the current state of AI (Artifical Intelligence) in the tech industry: 1) It&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>This is not a fully baked collection of thoughts that I spent a ton of time crafting. It is just a simple list of why I, as a software product professional, dislike the current state of AI (Artifical Intelligence) in the tech industry:</p>
-<p>1) <strong>It burns too many resources for the value it offers</strong> - We are burning a massive amount of electrical power to run all the AI training and apps. We are doing so at a time when we need to be improving the energy management across our world. If AI could improve its energy efficiency, I'd be more open to it.</p>
-<p>2) <strong>Technology companies are inappropriately using it as product branding</strong> - Tech products matter because they solve problems. The actual tech used to solve the problem is not the selling point of good solutions. No consumer truly cares if the SaaS app they love is coded in React or Angular. Yet tech companies are promoting new features of their products by waving the flag of "AI-Driven!". This is silly. Sell products because of what they do, not because of what tech you use to make them do it. If you have to call out "AI" to make it sell, you didn't really create a compelling feature. </p>
-<p>3) <strong>We simply don't need it</strong> - I've always been a bit of an oddball in the tech world because I question whether it is improving our world. I think time has proven my skeptical instincts correct as we see the negative impact of social media and misinformation campaigns across our society. I believe we need to be asking whether technology improves our lives or not when we develop new products. And I don't see many things coming out of the current AI excitement that meet that criteria of being an overall improvement. Sure, they are clever, and maybe even helpful. But are they better? Are the results better or just faster? Are the people working in jobs that are moving to AI better for it? Are the people who receive the work product created by AI better for it? Or are they just clever shiny new toys? Do we really need such things, especially if we look back to my first point of the energy cost to build them? </p>
-<p>I am not saying AI should not exist - it know that it can improve the world when applied correctly. There are use cases where those questions can be answered with an emphatic "Yes, this is better in all ways." My favorite positive example was a hearing aid I head about that can allow you to focus on one person in a crowd and filter out all noise other than their voice. Yeah, sign me up for that one. And find more products like that which solve a real problem. </p>
-<p>But most companies putting out AI-driven products do not fall into that category. I'd encourage everyone in this industry to put much more thought into their usage of AI than what I'm seeing today. </p>
             ]]>
         </content>
     </entry>
