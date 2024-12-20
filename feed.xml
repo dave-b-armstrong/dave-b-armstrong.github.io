@@ -3,7 +3,7 @@
     <title>codingdave.com</title>
     <link href="https://codingdave.com/feed.xml" rel="self" />
     <link href="https://codingdave.com" />
-    <updated>2024-12-20T09:50:39-06:00</updated>
+    <updated>2024-12-20T09:51:21-06:00</updated>
     <author>
         <name>Dave Armstrong</name>
     </author>
@@ -17,15 +17,15 @@
         <link href="https://codingdave.com/sabbatical-week-three.html"/>
         <id>https://codingdave.com/sabbatical-week-three.html</id>
 
-        <updated>2024-12-20T09:50:39-06:00</updated>
+        <updated>2024-12-20T09:51:21-06:00</updated>
             <summary>
                 <![CDATA[
-                    This week overall was one where I spent as much time recovering from things I've done as actually doing things. There were many chores - fixing lights in the kitchen, fixing the snowblower, fixing the child's car, driving people around due to having one less&hellip;
+                    This week overall was one where I spent as much time recovering from things I've done as actually doing things. There were many chores - fixing lights in the kitchen, fixing the child's car, driving people around due to having one less car, a snowstorm&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>This week overall was one where I spent as much time recovering from things I've done as actually doing things. There were many chores - fixing lights in the kitchen, fixing the snowblower, fixing the child's car, driving people around due to having one less car, a snowstorm and a broken snowblower, and fixing that, too. </p>
+                <p>This week overall was one where I spent as much time recovering from things I've done as actually doing things. There were many chores - fixing lights in the kitchen, fixing the child's car, driving people around due to having one less car, a snowstorm and a broken snowblower, and fixing that, too. </p>
 <p>But I did get some things done:</p>
 <ul>
 <li>I migrated the exercise program I'm doing to a web page that everyone can see, linked on the left of this page. It tracks where you are, and stores that info in your browser, not my server. I personally did not make much progress this week due to all the other stuff I was doing and resting afterwards, but next week we'll go again and hopefully move up a few levels.</li>
