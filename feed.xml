@@ -3,12 +3,43 @@
     <title>codingdave.com</title>
     <link href="https://codingdave.com/feed.xml" rel="self" />
     <link href="https://codingdave.com" />
-    <updated>2024-12-27T13:02:13-06:00</updated>
+    <updated>2025-01-03T09:41:15-06:00</updated>
     <author>
         <name>Dave Armstrong</name>
     </author>
     <id>https://codingdave.com</id>
 
+    <entry>
+        <title>Sabbatical: Week Five</title>
+        <author>
+            <name>Dave Armstrong</name>
+        </author>
+        <link href="https://codingdave.com/sabbatical-week-five.html"/>
+        <id>https://codingdave.com/sabbatical-week-five.html</id>
+            <category term="sabbatical"/>
+
+        <updated>2025-01-03T09:40:47-06:00</updated>
+            <summary>
+                <![CDATA[
+                    Am I really five weeks into this break already? My creative practice is so far a continual exercise in finding things that don't work. But I'm walking towards a vision of how I want monotypes to come out. I'm not loving free-hand inking on glass,&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Am I really five weeks into this break already?</p>
+<p>My creative practice is so far a continual exercise in finding things that don't work. But I'm walking towards a vision of how I want monotypes to come out. I'm not loving free-hand inking on glass, and also not loving the consistency of using a brush to paint ink onto glass. So I'm experimenting with different tools, inks, etc. </p>
+<p>I'm also working through my thoughts on block printing. I've done a few blocks and prints this past week, and gotten the prints to come out at least as well as the carving did, but I want a more detailed result than my carving ability/tools allow. Chris Gill implied as much in a couple emails before the holidays, and he was totally right! </p>
+<p>That has led me down some internal thoughts on art vs. craft, modern tools vs. traditional techniques. I tend to land on the side of using whatever modern tech is available to get the result you want. I appreciate hand-crafted works, and I love a process that enables good result (both in art and tech), but I don't like processes that are just tedium when there are more effective ways to get the same result. I also believe that when we look back at artists from past centuries, they used the tools available in their time. They did not arbitrarily reject tools based on artistic philosophy - they used the tools they had to get the result they want. That being the case, I am not going to fret over whether my work is hand-crafted or digitially assisted. I am going to focus on results. </p>
+<p>With all that in mind, when I think about tools to achieve the print results I want, I don't believe my carving skill should be a roadblock. I can design digitally and CNC the carving, leaving my creative inputs as the design, the ink, and the actual final print. I am 100% comfortable with defedning the artistic integrity of that mix, especially since I just as likely to use my tech skills in the automation anyway.</p>
+<p>But there is a catch to doing more with CNC - my promise to myself for this sabbatical was that because I do not have an income, I am not going to buy new tools. Which means I need to earn a CNC machine to crave my blocks by selling my work. Which means I need to figure out what I can make that people would actually buy.</p>
+<p>And that takes me back to painting. While I'm not an amazing painter, enough people like what I do that I can probably sell some. So I'm going to bring some painting back into the mix to see if I can find the right balance of painting what I enjoy while also creating result people want. </p>
+<p>If anyone is still reading, yes, this week was a lot of thought. Much more comtemplating of a creative practice vs the prior week which was just holidays. </p>
+<p>The other update is on my exercise program and health - that was the primary reason I wanted time off in the first place -- to make sure health came before career for a while. And this last week was bad. I could not exercise much. I gained a ton of weight. My blood sugar was up. And high blood sugar causes food cravings, so I can feel that spiral trying to take me out. So everything was bad, and this next week I need to break the spiral. </p>
+<p>I also did apply for one job. I'm not actively looking to start work again, but I also am aware that perfect jobs are few and far between, so I do have one eye looking out just in case something amazing popped up. And I saw a software job with a small team doing educational work. Not corporate. Not startup. Looks great. I sent a resume. But I did not see it until the job posting had been up for weeks, so I'm not really expecting a call from it. But it is the only thing I've seen so far that would drag me out of my sabbatical. </p>
+<p>So here we go, into 2025!</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Sabbatical: Week Four</title>
         <author>
@@ -16,8 +47,9 @@
         </author>
         <link href="https://codingdave.com/sabbatical-week-four.html"/>
         <id>https://codingdave.com/sabbatical-week-four.html</id>
+            <category term="sabbatical"/>
 
-        <updated>2024-12-27T13:02:13-06:00</updated>
+        <updated>2025-01-03T09:41:15-06:00</updated>
             <summary>
                 <![CDATA[
                     This was a low-key week. We did the annual Christmas-adjacent birthday, we exchanged some presents, and we also had all the kids home all week, sometimes with extras. And it was snowy and icy and we spent a lot of time just holed up relaxing.
@@ -40,8 +72,9 @@
         </author>
         <link href="https://codingdave.com/sabbatical-week-three.html"/>
         <id>https://codingdave.com/sabbatical-week-three.html</id>
+            <category term="sabbatical"/>
 
-        <updated>2024-12-20T09:51:21-06:00</updated>
+        <updated>2025-01-03T09:41:05-06:00</updated>
             <summary>
                 <![CDATA[
                     This week overall was one where I spent as much time recovering from things I've done as actually doing things. There were many chores - fixing lights in the kitchen, fixing the child's car, driving people around due to having one less car, a snowstorm&hellip;
@@ -68,8 +101,9 @@
         </author>
         <link href="https://codingdave.com/sabbatical-week-two.html"/>
         <id>https://codingdave.com/sabbatical-week-two.html</id>
+            <category term="sabbatical"/>
 
-        <updated>2024-12-13T06:32:48-06:00</updated>
+        <updated>2025-01-03T09:40:57-06:00</updated>
             <summary>
                 <![CDATA[
                     Last week, I said this week was going to be spent with family... and that was true, but we did it in fast mode, with my parents coming into town one day, doing an early christmas the next day, and departing the next morning. It&hellip;
@@ -298,41 +332,6 @@
 <li>Everybody has an opinion about remote work. Build a team who agrees on whether or not they want to be in-person vs. remote. Mixing the two doesn’t work. This choice will exclude specific people from being on the team. Consider that a good thing - there is enough talent in this industry to go around, so if your otherwise perfect team member doesn’t want to match the rest of the team, that is a deal-killer. Hire people who match.</li>
 <li>Do not micro-manage. Software people are rarely, if ever, the type of person who wants that.</li>
 </ul>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Finding a problem to solve</title>
-        <author>
-            <name>Dave Armstrong</name>
-        </author>
-        <link href="https://codingdave.com/finding-a-problem-to-solve.html"/>
-        <id>https://codingdave.com/finding-a-problem-to-solve.html</id>
-            <category term="tech"/>
-
-        <updated>2024-10-31T09:06:31-05:00</updated>
-            <summary>
-                <![CDATA[
-                    Software does not hold value in and of itself. This may be an unpleasant truth for those who like to write code, but software needs to add value to the lives of people to use it for it to become a successful software product. There&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>Software does not hold value in and of itself. This may be an unpleasant truth for those who like to write code, but software needs to add value to the lives of people to use it for it to become a successful software product. There is nothing wrong with hobby projects either, but even if you are the only user, it still need to add value for you.</p>
-<p>Making sure your product solves a problem is the key starting point for a software product. And also where people often get stuck.</p>
-<p>The most successful software products I’ve seen almost start themselves - there is a problem causing enough pain that people seek out a solution, talk to people who can make software, and they work together to solve the problem.</p>
-<p>But those people probably aren’t reading this - you are probably seeking the opposite origin story for your product, that you want to build and operate a software business, but need to go find that idea.</p>
-<p>The best way to make that work is to force the situation where you fix a pain point. Go out and talk to people who work in industries that interest you. Ask them where they feel frustration in their days, and which of those problems causes financial burdens to their company. Then see if you can envision a software product that resolves it.</p>
-<p>Be careful to actually be solving the problem with software, and not masking a process re-engineering effort by putting software over top of it. Many problems in business are due to poor processes or communication, and software can solve those. But you need to ask yourself if the same process or communications improvements can be done without software. If they can, your product is just a shiny layer on top of the actual fix, and some day in the future someone can easily get rid of your product.</p>
-<p><em>Side Note: Entertainment is a valid problem to solve. Video games are software, as are streaming services, chat apps, and other apps that don’t solve business problems but do make people more satisfied with their lives.</em></p>
-<p>Software adds value when it does things people are not great at - collecting data, visualizing data, synthesizing data. Automating processes and tasks, organizing incoming requests.</p>
-<p>One way to make sure your software has intrinsic value is to make sure you can specify its inputs and outputs, and that your customers are willing to pay a fee for the process of turning those inputs into those outputs. If you cannot abstract what your software does into an input, output and a financial transaction in exchange for that conversion, you might not have a viable software product.</p>
-<p>Another path is to find a product that has already solved a problem, but done it poorly. Find software that is critical to an industry, but disliked because it is not good software. Then simply do a better job than they did.</p>
-<p>Don’t discount your own problems, either. Write software for just yourself, if it makes your own life better. Then ask around and see if anyone else has the same problem and might want to try your solution.</p>
-<p class="indented"> </p>
-<p> </p>
-<p> </p>
-<p> </p>
             ]]>
         </content>
     </entry>
