@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Dave's Bird List" />
+    <title>Codingdave.com - Dave's Exercise Boot-Up</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/skeleton.css" />
+    <script defer src="https://us.umami.is/script.js" data-website-id="02a4968a-0e7b-4694-b330-8e0afe204556"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row" style="margin-top: 5%">
+        <div class="three columns u-pull-right">
+          <a href="https://codingdave.com">Back to codingdave.com</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="twelve column">
+          <h1>Dave&#39;s Exercise Boot-up</h1>
+          <p>
+            Back when 0-to-swole progrms filled the web, before people closed off the info and tried selling it for profit, I grabbed a bunch of the free info
+            and synthesized it into an program to build up to 30
+            minutes of running, 100 pushups, 100 squats, and 200 situps.
+          </p>
+          <p>
+            This page lets you follow that program. Do a couple of the shown
+            exercises each day, mark them as done, and come back to this page tomorrow to do
+            more.
+          </p>
+          <p></p>
+
+          <div id="walk" class="list"></div>
+          <div id="situp" class="list"></div>
+          <div id="pushup" class="list"></div>
+          <div id="squat" class="list"></div>
+
+        </div>
+        <div class="row">
+          <div class="twelve column">
+          <hr />
+          <strong>Tips:</strong>
+          </div>
+        </div>
+        <div class="row">
+          <div class="six columns">
+            <ul>
+              <li>
+                Take rest days for each exercise -- I do walking/running and
+                situps on M/W/F, pushups and squats on T/Th/Sat, with Sunday as
+                a complete rest day.
+              </li>
+              <li>Fully catch your breath between sets.</li>
+              <li>Don't forget to breathe while doing each exercise.</li>
+            </ul>
+          </div>
+
+          <div class="six columns">
+            <ul>
+              <li>
+                Bookmark this page and reload each day to see what exercises are
+                next.
+              </li>
+              <li>
+                It is expected that you will need to repeat some days. If you
+                don't complete one day, do it again the next time.
+              </li>
+              <li>
+                Your progress is stored in your browser - while this keeps it
+                100% private, it also means you'll lose it if you clear browser
+                storage. I figure that is OK because it is a short-term program,
+                not something you need to follow forever.
+              </li>
+            </ul>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+
+
+      function sumArray(arr) {
+        return arr.reduce(
+          (accumulator, currentValue) => accumulator + currentValue,
+          0
+        );
+      }
+
+      fetch("./data/program.json")
+        .then((response) => {
+          return response.json();
+        })
+        .then((data) => {
+          // get data from localstorage
+          let progressData = JSON.parse(localStorage.getItem("progressData"));
+          if (!progressData) {
+            // if not present, make an empty one and save.
+            progressData = {
+              walk: 0,
+              situp: 0,
+              pushup: 0,
+              squat: 0,
+            };
+            localStorage.setItem("progressData", JSON.stringify(progressData));
+          }
+
+          // on click of 'done', update and save storage
+          function increment(which) {
+            progressData[which] += 1;
+            localStorage.setItem("progressData", JSON.stringify(progressData));
+            let button = document.getElementById(`${which}-button`);
+            let congrats = document.createElement("p");
+            congrats.innerText = "Yay!";
+            button.parentElement.appendChild(congrats);
+            button.remove();
+          }
+
+          // display all days, with a done button on today.
+          function handleExerciseData(which) {
+            let list = document.getElementById(which);
+            data[which].forEach((day, count) => {
+              if (count >= progressData[which]) {
+                let container = document.createElement("div");
+                let total = sumArray(day);
+                if (day.length > 1) {
+                  container.innerHTML = `${total} ${which}s, as the following sets:<br /> ${day.join(
+                    " / "
+                  )}`;
+                } else {
+                  container.innerHTML = `${total} ${which}s.`;
+                }
+                if (count === progressData[which]) {
+                  container.classList.add("current");
+                  if (count === progressData[which]) {
+                    let doneButton = document.createElement("button");
+                    doneButton.id = `${which}-button`;
+                    doneButton.innerText = "Done!";
+                    doneButton.addEventListener("click", () => {
+                      increment(which);
+                    });
+                    container.appendChild(doneButton);
+                  }
+                }
+
+                list.appendChild(container);
+              }
+            });
+          }
+
+          // walk has text differences, so gets its own function
+          let walklist = document.getElementById("walk");
+          data.walk.forEach((day, count) => {
+            if (count >= progressData.walk) {
+              let container = document.createElement("div");
+              let runString = day[0] ? `Run ${day[0]} minutes. ` : "";
+              let walkString = day[1] ? `Walk ${day[1]} minutes.` : "";
+              container.innerText = runString + walkString;
+              if (count === progressData.walk) {
+                container.classList.add("current");
+                if (count !== data.walk.length - 1) {
+                  let doneButton = document.createElement("button");
+                  doneButton.id = "walk-button";
+                  doneButton.innerText = "Done!";
+                  doneButton.addEventListener("click", () => {
+                    increment("walk", this);
+                  });
+                  container.appendChild(doneButton);
+                }
+              }
+              walklist.appendChild(container);
+            }
+          });
+
+          handleExerciseData("situp");
+          handleExerciseData("pushup");
+          handleExerciseData("squat");
+        });
+    </script>
+  </body>
+</html>

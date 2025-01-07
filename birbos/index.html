@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Dave's Bird List">
+	<title>Codingdave.com - Dave's Bird List</title>
+	<link rel="stylesheet" href="./css/normalize.css">
+	<link rel="stylesheet" href="./css/skeleton.css">
+	<link rel="stylesheet" href="./css/masonry.css">
+  <script defer src="https://us.umami.is/script.js" data-website-id="02a4968a-0e7b-4694-b330-8e0afe204556"></script>
+</head>
+<body>
+	<div class="container">
+    <div class="row" style="margin-top: 5%">
+      <div class="three columns u-pull-right">
+        <a href="https://codingdave.com">Back to codingdave.com</a>
+      </div>
+    </div>
+    
+		<div class="row">
+	  	<div class="twelve column">
+        <h1>Dave&#39;s Bird List (<span id="totalcount"></span> species)</h1>
+        <p>
+          These images represent the <span id="birdcount"></span> bird species I&rsquo;ve photographed and identified. My goal for these is not high-quality, just documentation.
+          <br />
+          My list of <span id="idcount"></span> birds I've encountered and identified, but without photos is <a href="#moar">below</a>.
+        </p>
+        <div id="birdlist"></div>
+      </div>
+
+      <hr />
+      <p>
+        <a id="moar"></a>
+        Additional birds I've identified by sight and/or sound, without a photo capture:
+      </p>
+        <ol id="id-list"></ol>
+      </div>
+
+		</div>
+	</div>
+
+  <script>
+    fetch("./data/photos.json")
+      .then(response => {
+        return response.json();
+      })
+    .then(data => {
+      let birdlist = document.getElementById('birdlist');
+      let idlist = document.getElementById('id-list');
+
+      data.forEach(bird => {
+        if (bird.src) {
+          let container = document.createElement('div');
+          let img = document.createElement('img');
+          let title = document.createElement('div');
+          container.classList.add('item');
+          title.classList.add('top-left');
+          title.innerText = bird.name;
+          img.src = bird.src;
+          img.alt = bird.name;
+
+          container.appendChild(img);
+          container.appendChild(title);
+          birdlist.appendChild(container);
+        } else {
+
+          let container = document.createElement('li');
+          container.innerText = bird.name;
+          idlist.appendChild(container)
+        }
+      });
+
+      let birdcount = document.getElementById('birdcount');
+      let idcount = document.getElementById('idcount');
+      birdcount.innerText = birdlist.children.length;
+      idcount.innerText = idlist.children.length;
+
+      let totalcount = document.getElementById('totalcount');
+      totalcount.innerText = birdlist.children.length + idlist.children.length;
+
+      birdlist.classList.add('masonry');
+    });
+
+
+  </script>
+
+</body>
+
+</html>
