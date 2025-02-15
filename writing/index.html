@@ -1,38 +1,4 @@
-<!DOCTYPE html><script>(function(){const isDev = false;
-
-  if (isDev) {
-    async function createTopic(key, title, description) {
-      try {
-        const response = await fetch("/api/createTopic", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({ key, title, description }),
-        });
-
-        if (!response.ok) {
-          throw new Error(`HTTP error! Status: ${response.status}`);
-        }
-        console.log("Page contents saved successfully");
-      } catch (error) {
-        console.error("Error saving page contents:", error);
-      }
-    }
-
-    document.addEventListener("DOMContentLoaded", () => {
-      const keyField = document.getElementById("keyField");
-      const titleField = document.getElementById("titleField");
-      const descriptionField = document.getElementById("descriptionField");
-
-      const createButton = document.getElementById("createTopic");
-      createButton.addEventListener("click", (e) => {
-        e.preventDefault();
-        createTopic(keyField.value, titleField.value, descriptionField.value);
-      });
-    });
-  }
-})();</script> <script astro:false defer="defer" src="https://us.umami.is/script.js" data-website-id="02a4968a-0e7b-4694-b330-8e0afe204556"></script><script>
+<!DOCTYPE html><script astro:false defer="defer" src="https://us.umami.is/script.js" data-website-id="02a4968a-0e7b-4694-b330-8e0afe204556"></script><script>
   function encodeHtmlEntities(str) {
     return str
       .replace(/&/g, "&")
@@ -49,9 +15,8 @@
 .intro-text[data-astro-cid-j7pv25f6]{margin:0 40px 20px;text-align:center}.menu-item[data-astro-cid-j7pv25f6]{text-align:center;margin:12px auto;width:600px;padding:8px;border-radius:22px}.menu-item[data-astro-cid-j7pv25f6] strong[data-astro-cid-j7pv25f6]{text-decoration:underline;line-height:1.4em}.menu-description[data-astro-cid-j7pv25f6]{font-size:.9em}.num-items[data-astro-cid-j7pv25f6]{font-size:.75em}
 </style><body class="bg-medium font-dark"> <div class="contact bg-medium font-dark">
 Contact: hikingdave @ gmail.com || <a class="font-dark" href="https://codingdave.com">codingdave.com</a> </div> <div class="bg-light font-dark" data-astro-cid-j7pv25f6><h1 data-astro-cid-j7pv25f6>This is not Dave's Blog</h1><h2 data-astro-cid-j7pv25f6>Except that it is...</h2><p class="intro-text" data-astro-cid-j7pv25f6>
-This is the testbed for an idea I'm playing with, to organize content by
-      topic, displayed by date. My goal is to use it to write up history
-      timelines (art history, specifically.) But it also fits other types of
-      content, so I've imported a bunch of stuff here while I kick the idea
-      around.
-</p></div><p class="menu-item bg-light font-dark" data-astro-cid-j7pv25f6><a class="font-dark" href="ai" data-astro-cid-j7pv25f6><strong data-astro-cid-j7pv25f6>Thoughts on AI</strong><br data-astro-cid-j7pv25f6><span class="menu-description" data-astro-cid-j7pv25f6>From someone who considers AI to be a tool, nothing more.</span><br data-astro-cid-j7pv25f6><i class="num-items" data-astro-cid-j7pv25f6>3 items. Most Recent: Thu Feb 06 2025</i></a></p><p class="menu-item bg-light font-dark" data-astro-cid-j7pv25f6><a class="font-dark" href="bpd" data-astro-cid-j7pv25f6><strong data-astro-cid-j7pv25f6>Parenting a Teenager with Borderline Personality Disorder</strong><br data-astro-cid-j7pv25f6><span class="menu-description" data-astro-cid-j7pv25f6>Notes from our experiences as parents of a child with BPD</span><br data-astro-cid-j7pv25f6><i class="num-items" data-astro-cid-j7pv25f6>13 items. Most Recent: Thu Feb 06 2025</i></a></p><p class="menu-item bg-light font-dark" data-astro-cid-j7pv25f6><a class="font-dark" href="site" data-astro-cid-j7pv25f6><strong data-astro-cid-j7pv25f6>About This Site...</strong><br data-astro-cid-j7pv25f6><span class="menu-description" data-astro-cid-j7pv25f6>... a few words about what this is, and why I built it.</span><br data-astro-cid-j7pv25f6><i class="num-items" data-astro-cid-j7pv25f6>2 items. Most Recent: Wed Feb 05 2025</i></a></p><p class="menu-item bg-light font-dark" data-astro-cid-j7pv25f6><a class="font-dark" href="softwaredev" data-astro-cid-j7pv25f6><strong data-astro-cid-j7pv25f6>Software Development</strong><br data-astro-cid-j7pv25f6><span class="menu-description" data-astro-cid-j7pv25f6>Thoughts on the software industry</span><br data-astro-cid-j7pv25f6><i class="num-items" data-astro-cid-j7pv25f6>5 items. Most Recent: Wed Oct 30 2024</i></a></p><p class="menu-item bg-light font-dark" data-astro-cid-j7pv25f6><a class="font-dark" href="twitter" data-astro-cid-j7pv25f6><strong data-astro-cid-j7pv25f6>Twitter Feed (2013-2015)</strong><br data-astro-cid-j7pv25f6><span class="menu-description" data-astro-cid-j7pv25f6>Ye Olde Twitter Feed, from when I did such things. Before the dark times.</span><br data-astro-cid-j7pv25f6><i class="num-items" data-astro-cid-j7pv25f6>353 items. Most Recent: Mon Dec 21 2015</i></a></p><p class="menu-item bg-light font-dark" data-astro-cid-j7pv25f6><a class="font-dark" href="migratenotes" data-astro-cid-j7pv25f6><strong data-astro-cid-j7pv25f6>Notes Migration Blog (2007-2013)</strong><br data-astro-cid-j7pv25f6><span class="menu-description" data-astro-cid-j7pv25f6>Archive of old blog about shutting down a Lotus Notes environment</span><br data-astro-cid-j7pv25f6><i class="num-items" data-astro-cid-j7pv25f6>138 items. Most Recent: Tue May 07 2013</i></a></p><p class="menu-item bg-light font-dark" data-astro-cid-j7pv25f6><a class="font-dark" href="Facebook" data-astro-cid-j7pv25f6><strong data-astro-cid-j7pv25f6>Dave&#39;s Old Facebook Wall (2007-2012)</strong><br data-astro-cid-j7pv25f6><span class="menu-description" data-astro-cid-j7pv25f6>An imperfect archive of my Facebook posts</span><br data-astro-cid-j7pv25f6><i class="num-items" data-astro-cid-j7pv25f6>434 items. Most Recent: Wed Jul 18 2012</i></a></p> </body>;
+This is the testbed for an idea I'm working on for a new way to author and
+      share your writing or other content.
+<br data-astro-cid-j7pv25f6>
+While I work through the idea, you can simply consider this my personal blog.
+</p></div><p class="menu-item bg-light font-dark" data-astro-cid-j7pv25f6><a class="font-dark" href="bpd" data-astro-cid-j7pv25f6><strong data-astro-cid-j7pv25f6>Parenting a Teenager with Borderline Personality Disorder</strong><br data-astro-cid-j7pv25f6><span class="menu-description" data-astro-cid-j7pv25f6>Notes from our experiences as parents of a child with BPD</span><br data-astro-cid-j7pv25f6><i class="num-items" data-astro-cid-j7pv25f6>13 items. Most Recent: Thu Feb 06 2025</i></a></p><p class="menu-item bg-light font-dark" data-astro-cid-j7pv25f6><a class="font-dark" href="ai" data-astro-cid-j7pv25f6><strong data-astro-cid-j7pv25f6>Thoughts on AI</strong><br data-astro-cid-j7pv25f6><span class="menu-description" data-astro-cid-j7pv25f6>From someone who considers AI to be a tool, nothing more.</span><br data-astro-cid-j7pv25f6><i class="num-items" data-astro-cid-j7pv25f6>3 items. Most Recent: Thu Feb 06 2025</i></a></p><p class="menu-item bg-light font-dark" data-astro-cid-j7pv25f6><a class="font-dark" href="site" data-astro-cid-j7pv25f6><strong data-astro-cid-j7pv25f6>About This Site...</strong><br data-astro-cid-j7pv25f6><span class="menu-description" data-astro-cid-j7pv25f6>... a few words about what this is, and why I built it.</span><br data-astro-cid-j7pv25f6><i class="num-items" data-astro-cid-j7pv25f6>2 items. Most Recent: Wed Feb 05 2025</i></a></p><p class="menu-item bg-light font-dark" data-astro-cid-j7pv25f6><a class="font-dark" href="softwaredev" data-astro-cid-j7pv25f6><strong data-astro-cid-j7pv25f6>Software Development</strong><br data-astro-cid-j7pv25f6><span class="menu-description" data-astro-cid-j7pv25f6>Thoughts on the software industry</span><br data-astro-cid-j7pv25f6><i class="num-items" data-astro-cid-j7pv25f6>4 items. Most Recent: Wed Oct 30 2024</i></a></p><p class="menu-item bg-light font-dark" data-astro-cid-j7pv25f6><a class="font-dark" href="twitter" data-astro-cid-j7pv25f6><strong data-astro-cid-j7pv25f6>Twitter Feed (2013-2015)</strong><br data-astro-cid-j7pv25f6><span class="menu-description" data-astro-cid-j7pv25f6>Ye Olde Twitter Feed, from when I did such things. Before the dark times.</span><br data-astro-cid-j7pv25f6><i class="num-items" data-astro-cid-j7pv25f6>353 items. Most Recent: Mon Dec 21 2015</i></a></p><p class="menu-item bg-light font-dark" data-astro-cid-j7pv25f6><a class="font-dark" href="migratenotes" data-astro-cid-j7pv25f6><strong data-astro-cid-j7pv25f6>Notes Migration Blog (2007-2013)</strong><br data-astro-cid-j7pv25f6><span class="menu-description" data-astro-cid-j7pv25f6>Archive of old blog about shutting down a Lotus Notes environment</span><br data-astro-cid-j7pv25f6><i class="num-items" data-astro-cid-j7pv25f6>130 items. Most Recent: Tue May 07 2013</i></a></p><p class="menu-item bg-light font-dark" data-astro-cid-j7pv25f6><a class="font-dark" href="Facebook" data-astro-cid-j7pv25f6><strong data-astro-cid-j7pv25f6>Dave&#39;s Old Facebook Wall (2007-2012)</strong><br data-astro-cid-j7pv25f6><span class="menu-description" data-astro-cid-j7pv25f6>An imperfect archive of my Facebook posts</span><br data-astro-cid-j7pv25f6><i class="num-items" data-astro-cid-j7pv25f6>434 items. Most Recent: Wed Jul 18 2012</i></a></p> </body>;
